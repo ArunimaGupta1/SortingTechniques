@@ -1,6 +1,6 @@
 l= [1,1,2,5,6,8,3,5,0]
 print(l)
-for i in range(len(l)):
+for i in range(len(l)-1):
     min_val = min(l[i:])
     idx = l.index(min_val,i)
     if l[i]>min_val:
